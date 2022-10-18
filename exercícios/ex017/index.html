@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            /*   
+                Medidas Absolutas:border:
+                cm, mm, in(Polegada), px, pt, pc.
+            --------------------------------------------------------------------------------
+                Medidas Relativas:
+                em(Medida relativa ao tamanho atual da fonte - altura do "M" maíusculo), ex(Relativo a alutra"x" de uma fonte), rem(relativo a fonte configurada no body), vw(view port- porcentagem da largura ), vh(Altura da vw), %.
+            ---------------------------------------------------------------------------------
+                É recomenado que se ultilize "px" e "em" como medida.
+                16px geralmente = 1em
+            */
+            font-size: 1em; /*em é melhor recomendado por trabalhar com porcentagem, sendo assim você pode ultilizar em qualquer tela e não haverá problemas de tamanho da fonte.
+            */
+        }
+
+        h1 {
+            /* 
+            shorthand font
+            -font-style -> font-weight -> font-size -> font-family    
+            
+            font-family: 'Work Sans' , sans-serif;
+            font-weight: bolder;
+            font-size: 3em;
+            font-style:italic;   */
+           font:italic bolder 3em 'Wordk Sans', sans-serif; 
+        }
+    </style>
+</head>
+<body>
+    <H1>Trabalhando com Fontes</H1>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. At consectetur voluptatum quos quasi obcaecati animi neque impedit totam. Vero, expedita? Perspiciatis, ipsa distinctio eos tempora magni maxime expedita voluptatem rem!</p>
+    <h2>Subtitulo do Exercicio</h2>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima assumenda laborum reiciendis! Magnam vel eum quasi autem id incidunt, impedit veritatis hic debitis maiores voluptatum libero est fuga laborum illum.</p>
+    
+</body>
+</html>

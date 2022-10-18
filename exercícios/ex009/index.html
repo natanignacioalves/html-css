@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listas</title>
+</head>
+<body>
+    <h1>Trabalhando com listas</h1>
+    <h2>Listas Ordenadas</h2>
+    <p>Usa-se a tag <q><abbr title="Order Lists">ol</abbr> </q> que signifca Listas Ordenadas. </p>
+    <p>Dentro da tag vai os itens da lista, representado por outra tag <abbr title="List Iten"><q>li</q></abbr> para cada ítem da lista:</p>
+    <ol>
+        <li>Acordar</li> <!--(/li) se tornou opcional no HTML5-->
+        <li>Tomar café</li>
+        <li>Escovar os dentes</li>
+    </ol>
+    <p>Dentro da tag ol, pode se colocar um comando padrão "type" que lhe dará 5 opcões:
+    </p>
+    <h3>opção 1</h3>
+    <P>Númerada normal:</P>
+    <ol type="1">
+        <li>Acordar</li>
+        <li>Escovar os dentes</li>
+        <li>Tomar café</li>
+    </ol>
+    <h3>Opção A</h3>
+    <p>Lista alfabética com letra maiúscula:</p>
+    <ol type="A">
+        <li>Acordar</li>
+        <li>Escovar os dentes</li>
+        <li>Tomar café</li>
+    </ol>
+    <h3>Opção a</h3>
+    <p>Lista alfabética com letra minúscula:</p>
+    <ol type="a">
+        <li>Acordar</li>
+        <li>Escovar os dentes</li>
+        <li>Tomar café</li>
+    </ol>
+    <h3>Opção I</h3>
+    <p>Númerada por números romanos maiúsculos:</p>
+    <ol type="I">
+        <li>Acordar</li>
+        <li>Escovar os dentes</li>
+        <li>Tomar café</li>
+    </ol>
+    <h3>Opção i</h3>
+    <p>Númerada por números romanos minúsculos:</p>
+    <ol type="i">
+        <li>Acordar</li>
+        <li>Escovar os dentes</li>
+        <li>Tomar café</li>
+    </ol>
+    <h2>Listas não ordenadas</h2>
+    <p>Como o próprio nome sujere, são listas que não precisam ser enumeradas ou sem a necessidade de uma sequência.</p>
+    <p>Em listas ordenadas a tag éra ol(Order Lists), em listas não ordenadas a tag é ul(Unordered List).</p>
+    <ul>
+        <li>Pão</li>
+        <li>Leite</li>
+        <li>Tomate</li>
+        <li>Feijão</li>
+    </ul>
+    <p>Nestas listas temos apenas 3 tipos de padrão type: disc, circle e square  </p>
+    <p>Esses padrões apenas irão mudar a forma das bolinhas de cada item</p>
+    <h2>Minhas linguagens favoritas</h2>
+    <ol>
+         <li>Antigas</li>
+            <ol type="a">
+                <li>WORD</li>
+                <LI>Exel</LI>
+                <li>Power Point</li>
+                <li>C++</li>
+            </ol>
+         <li>Novas</li>
+            <ol type="a">
+                <li>Javascript</li>
+                <li>Html</li>
+                <li>CSS</li>
+                <li>Portugol</li>
+            </ol>    
+    </ol>
+    <h2>Meus Jogos Favoritos</h2>
+    <ol>
+        <li>PlayStation 2</li>
+            <ul>
+                <li>Burning Out</li>
+                <li>Ben 10</li>
+            </ul>
+        <li>PlayStation 3</li>
+            <ul>
+                <li>Litlle Big Planet</li>
+                <li>Uncherted 3</li>
+            </ul>
+        <li>PC</li>
+            <ul>
+                <li>World of Warcraft</li>
+                    <ul type="disc">
+                        <li>Mists of Pandaria</li>
+                        <li>Warlords of Draenor</li>
+                    </ul>
+                <li>League of Legends</li>
+            </ul>
+    </ol>
+<h2>Lista de Definições</h2>
+<p>Para a lista de definições(Definition list) é usada a tag <q>dl</q>. </p>
+<p>É colocado um termo e a definição do mesmo. Como um dicíonario.</p>
+<p>É usado a tag <q>dt</q> para o termo e <q>dd</q> para definição</p>
+<dl>
+    <dt>Termo</dt>
+    <dd>Definição ou descrição</dd>
+</dl>
+<p>exemplo:</p>
+<dl>
+    <dt>HTML</dt>
+        <dd>Linguagem de <ins>marcação</ins> para a criação do conteúdo de um site.</dd>
+    <dt>CSS</dt>
+        <dd>Linguagem de <ins>marcação</ins> para a criação do desing de um site.</dd>
+    <dt>Javascript</dt>
+        <dd>Linguagem de <ins>programação</ins> para a criação de interatividade de um site.</dd>
+</dl>
+<!--Descobrir como estilizar melhor com css para se tornar um site de conteúdo legivel.-->
+
+</body>
+</html>
